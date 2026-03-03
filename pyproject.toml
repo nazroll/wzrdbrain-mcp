@@ -12,6 +12,12 @@ dependencies = [
 [project.scripts]
 mcp-server-wzrdbrain = "wzrdbrain_mcp.server:main"
 
+[project.optional-dependencies]
+test = ["pytest>=8.0", "pytest-cov"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
