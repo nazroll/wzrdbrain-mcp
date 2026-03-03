@@ -1,0 +1,17 @@
+[project]
+name = "wzrdbrain-mcp"
+version = "0.1.0"
+description = "MCP server for generating physics-aware inline skating combos using wzrdbrain"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp==1.26.0",
+    "wzrdbrain==0.3.0",
+]
+
+[project.scripts]
+mcp-server-wzrdbrain = "wzrdbrain_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
