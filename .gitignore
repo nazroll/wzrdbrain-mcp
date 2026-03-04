@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+.coverage
 
 # Virtual environments
 .venv
@@ -27,4 +28,10 @@ wheels/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# MCP Client State
 .claude/
+
+# Project Planning
+PLAN.md
+
