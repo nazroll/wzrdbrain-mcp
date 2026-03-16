@@ -1,12 +1,12 @@
 [project]
 name = "wzrdbrain-mcp"
-version = "0.2.0"
+version = "0.2.1"
 description = "MCP server for generating physics-aware inline skating combos using wzrdbrain"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "mcp==1.26.0",
-    "wzrdbrain==0.4.0",
+    "wzrdbrain==0.4.1",
 ]
 
 [project.scripts]

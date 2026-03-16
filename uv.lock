@@ -678,19 +678,19 @@ wheels = [
 
 [[package]]
 name = "wzrdbrain"
-version = "0.4.0"
+version = "0.4.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/88/2e/ac9868fe510cc0595b9090726942ab7ab5fa35d85cd77ce7f9b84e56412f/wzrdbrain-0.4.0.tar.gz", hash = "sha256:11b4d1ae0eb41b809979eead75bc8a2463e4ae3975f4234a8f43c05943bf06c2", size = 17296, upload-time = "2026-03-16T08:50:35.265Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/cb/5b/72f9f9ca28b94f549747522869b44a4cefb2a484acb1b0b5b7c082b906ac/wzrdbrain-0.4.1.tar.gz", hash = "sha256:7f426c1bad8939ef398b1e6bb6fa6f385879fe33a8960dd0c12c5b7fe997ab7b", size = 17310, upload-time = "2026-03-16T10:05:32.904Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d0/eb/777084415db3a7c73c92fff7ce690254a2df822df0bcd225c3d77592a11f/wzrdbrain-0.4.0-py3-none-any.whl", hash = "sha256:caf90df7f397289fca4252919531913496a181128a28f001b1d8582df4b3f5f6", size = 12582, upload-time = "2026-03-16T08:50:33.995Z" },
+    { url = "https://files.pythonhosted.org/packages/7c/f2/e662384c9436283d0a8d4e374add36c98f0938a4283ffe18ebf2bb0a44f7/wzrdbrain-0.4.1-py3-none-any.whl", hash = "sha256:6eb2ccdff3b627bddab3e9b00130d2f27afdce1a9e0d3a6db9c2d5943dbf1232", size = 12586, upload-time = "2026-03-16T10:05:31.511Z" },
 ]
 
 [[package]]
 name = "wzrdbrain-mcp"
-version = "0.2.0"
+version = "0.2.1"
 source = { editable = "." }
 dependencies = [
     { name = "mcp" },
@@ -708,6 +708,6 @@ requires-dist = [
     { name = "mcp", specifier = "==1.26.0" },
     { name = "pytest", marker = "extra == 'test'", specifier = ">=8.0" },
     { name = "pytest-cov", marker = "extra == 'test'" },
-    { name = "wzrdbrain", specifier = "==0.4.0" },
+    { name = "wzrdbrain", specifier = "==0.4.1" },
 ]
 provides-extras = ["test"]
